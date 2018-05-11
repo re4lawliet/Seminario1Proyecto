@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-proyectoseminario-20180508072724.mdf;Initial Catalog=aspnet-proyectoseminario-20180508072724;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Documents\\Visual\ Studio\ 2013\\Projects\\proyectoseminario\\proyectoseminario\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="seminarioproyectoConnectionString-Web.config Connection String" description="seminarioproyectoConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=(local);Initial Catalog=seminarioproyecto;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Documents\\Visual\ Studio\ 2013\\Projects\\proyectoseminario\\proyectoseminario\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='seminarioproyectoConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="seminarioproyectoConnectionString2-Web.config Connection String" description="seminarioproyectoConnectionString2 Connection String used in web.config by the application to access the database." defaultValue="Data Source=(local);Initial Catalog=seminarioproyecto;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\User\\Documents\\Visual\ Studio\ 2013\\Projects\\proyectoseminario\\proyectoseminario\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='seminarioproyectoConnectionString2']/@connectionString" />
+  </parameter>
+</parameters>
